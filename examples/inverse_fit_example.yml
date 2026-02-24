@@ -1,0 +1,36 @@
+# Example configuration for inverse fitting workflow
+output_dir: example_outputs/inverse_fit
+
+# True geometric parameters (used to generate synthetic measurement)
+true_height: 120e-9        # metres
+true_duty_cycle: 0.55      # fraction
+
+# Grating period and material parameters
+period: 600e-9
+n_ambient: 1.0
+n_substrate: 1.0
+n_grating_high: 3.5
+n_grating_low: 1.5
+
+# Wavelength range and sampling
+wavelength_start: 400e-9
+wavelength_stop: 800e-9
+num_wavelengths: 60
+
+# Noise level for synthetic measurement
+noise_std: 0.01            # standard deviation of Gaussian noise
+noise_seed: 42             # random seed for reproducibility
+
+# Polarisation and Fourier order
+polarization: TE
+fourier_order: 3
+
+# Initial guess for the optimiser
+initial_guess:
+  height: 100e-9
+  duty_cycle: 0.50
+
+# Bounds on parameters during fitting
+bounds:
+  height: [50e-9, 200e-9]
+  duty_cycle: [0.2, 0.8]

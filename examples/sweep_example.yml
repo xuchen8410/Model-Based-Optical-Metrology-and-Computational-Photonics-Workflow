@@ -1,0 +1,33 @@
+# Example configuration for the parameter sweep workflow
+output_dir: example_outputs/sweep
+
+period: 600e-9              # grating period in metres
+
+# Arrays of grating heights and duty cycles to sweep
+heights:
+  - 50e-9
+  - 100e-9
+  - 150e-9
+  - 200e-9
+duty_cycles:
+  - 0.3
+  - 0.5
+  - 0.7
+
+# Wavelength range and number of points
+wavelength_start: 400e-9
+wavelength_stop: 800e-9
+num_wavelengths: 60
+
+# Material parameters
+n_ambient: 1.0
+n_substrate: 1.0
+n_grating_high: 3.5
+n_grating_low: 1.5
+
+# Polarisation and Fourier order
+polarization: TE
+fourier_order: 3
+
+# Parallelisation
+num_workers: 2
