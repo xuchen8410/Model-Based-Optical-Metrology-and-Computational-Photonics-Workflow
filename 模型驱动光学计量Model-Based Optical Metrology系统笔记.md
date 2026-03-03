@@ -1,5 +1,5 @@
 Model-Based Optical Metrology 
-1. Fundamental Physics Layer
+** 1. Fundamental Physics Layer
 
 All optical metrology systems are fundamentally governed by electromagnetic wave propagation and boundary interactions.
 
