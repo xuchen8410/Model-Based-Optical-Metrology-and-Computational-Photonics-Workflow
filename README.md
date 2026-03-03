@@ -171,6 +171,5 @@ simulate → add noise → fit → recover → quantify uncertainty
 - Suitable for:
   - Parameter sweeps  
   - Batch inverse solves  
-
----
+- Workflows support multiprocessing via:`concurrent.futures.ProcessPoolExecutor`
 
