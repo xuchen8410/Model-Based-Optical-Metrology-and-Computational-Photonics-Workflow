@@ -164,13 +164,7 @@ simulate → add noise → fit → recover → quantify uncertainty
 
 ---
 
-# Parallelization
-
-Workflows support multiprocessing via:
-
-`concurrent.futures.ProcessPoolExecutor`
-
-Features:
+#### 并行Features:
 
 - YAML-configurable worker count  
 - Deterministic seeds per worker  
