@@ -1,4 +1,4 @@
-# comp-photonics-workflows
+# Computational-photonics-workflows
 
 A self-contained example of a **closed-loop computational photonics workflow**.
 
