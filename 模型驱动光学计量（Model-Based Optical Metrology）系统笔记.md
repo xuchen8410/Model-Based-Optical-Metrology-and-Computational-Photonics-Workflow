@@ -1,4 +1,4 @@
-Model-Based Optical Metrology – Interview Preparation Notes
+Model-Based Optical Metrology 
 1. Fundamental Physics Layer
 
 All optical metrology systems are fundamentally governed by electromagnetic wave propagation and boundary interactions.
